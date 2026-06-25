@@ -103,6 +103,19 @@
     .links a:hover { color: var(--link); }
     .links svg { width: 16px; height: 16px; }
 
+    /* ---------- Job-market banner ---------- */
+    .banner {
+      margin-top: 28px;
+      padding: 14px 18px;
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--link);
+      border-radius: 8px;
+      background: var(--accent-bg);
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    .banner strong { color: var(--link); }
+
     /* ---------- Sections ---------- */
     section { margin-top: 48px; }
     h2 {
@@ -246,6 +259,12 @@
       <img class="photo" src="xyao.jpeg" alt="Yao Xiao"
            onerror="this.style.background='var(--accent-bg)';this.removeAttribute('src');" />
     </header>
+
+    <!-- ==================== JOB MARKET BANNER ==================== -->
+    <div class="banner">
+      📢 <strong>I am on the job market!</strong> Please feel free to
+      <a href="mailto:xiao_yao@mymail.sutd.edu.sg">contact me</a> if interested.
+    </div>
 
     <!-- ==================== ABOUT ==================== -->
     <section id="about">
